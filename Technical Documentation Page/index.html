@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Technical Documentation</title>
+</head>
+<body>
+  <nav id="navbar">
+    <header>Technical Documentation</header>
+    <a class="nav-link" href="#HTML_and_CSS">HTML and CSS</a>
+    <a class="nav-link" href="#JavaScript">JavaScript</a>
+    <a class="nav-link" href="#Responsive_Design">Responsive Design</a>
+    <a class="nav-link" href="#APIs">APIs</a>
+    <a class="nav-link" href="#Version_Control">Version Control</a>
+  </nav>
+
+  <main id="main-doc">
+    <section id="HTML_and_CSS" class="main-section">
+      <header>HTML and CSS</header>
+      <p>HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets) are core technologies used for creating and designing web pages.</p>
+      <p>In HTML, elements are marked up using tags to define structure, and CSS is used to style and layout the elements.</p>
+      <code>&lt;html&gt;</code>
+      <code>&lt;head&gt;</code>
+      <code>&lt;title&gt;My Web Page&lt;/title&gt;</code>
+      <code>&lt;/head&gt;</code>
+      <code>&lt;body&gt;</code>
+      <code>&lt;h1&gt;Hello, World!&lt;/h1&gt;</code>
+      <code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code>
+      <ul>
+        <li>HTML is used for structuring content on the web.</li>
+        <li>CSS is used for styling the content.</li>
+        <li>Together, they enable the creation of visually appealing and well-structured web pages.</li>
+      </ul>
+    </section>
+
+    <section id="JavaScript" class="main-section">
+      <header>JavaScript</header>
+      <p>JavaScript is a high-level, interpreted programming language that enables interactive and dynamic web pages. It is often used for client-side scripting to create responsive and engaging user interfaces.</p>
+      <p>Key features of JavaScript:</p>
+      <ul>
+        <li>Event-driven programming.</li>
+        <li>Asynchronous programming with callbacks and promises.</li>
+        <li>Manipulation of HTML and CSS in real-time.</li>
+      </ul>
+      <code>const greeting = "Hello, World!";</code>
+      <code>function displayGreeting() {</code>
+      <code>  alert(greeting);</code>
+      <code>}</code>
+      <p>JavaScript is a versatile language that can be used both on the client and server sides.</p>
+    </section>
+
+    <section id="Responsive_Design" class="main-section">
+      <header>Responsive Design</header>
+      <p>Responsive design ensures that a web page looks good and functions well on various devices and screen sizes.</p>
+      <p>Key techniques for responsive design:</p>
+      <ul>
+        <li>Flexible grid layouts using CSS Grid or Flexbox.</li>
+        <li>Media queries for adapting styles based on device characteristics.</li>
+        <li>Responsive images and fonts.</li>
+      </ul>
+      <code>@media screen and (max-width: 768px) {</code>
+      <code>  /* Styles for small screens */</code>
+      <code>}</code>
+      <p>By implementing responsive design practices, web developers can create a seamless user experience across devices.</p>
+    </section>
+
+    <section id="APIs" class="main-section">
+      <header>APIs</header>
+      <p>APIs (Application Programming Interfaces) allow different software applications to communicate and interact with each other.</p>
+      <p>Common types of APIs:</p>
+      <ul>
+        <li>Web APIs for accessing web services.</li>
+        <li>Library APIs for accessing functions in programming libraries.</li>
+        <li>Operating system APIs for interacting with the OS.</li>
+      </ul>
+      <code>// Example of using a web API with JavaScript</code>
+      <code>fetch('https://api.example.com/data')</code>
+      <code>  .then(response => response.json())</code>
+      <code>  .then(data => console.log(data));</code>
+      <p>APIs enable developers to integrate and leverage functionality from external services and libraries.</p>
+    </section>
+
+    <section id="Version_Control" class="main-section">
+      <header>Version Control</header>
+      <p>Version control systems, such as Git, manage changes to source code over time. They provide a way to track, collaborate, and revert changes made to a project.</p>
+      <p>Key concepts in version control:</p>
+      <ul>
+        <li>Commits: Individual changes to the codebase.</li>
+        <li>Branches: Independent lines of development.</li>
+        <li>Merging: Combining changes from different branches.</li>
+      </ul>
+      <code>git commit -m "Add new feature"</code>
+      <code>git branch feature-branch</code>
+      <code>git merge feature-branch</code>
+      <p>Version control is crucial for collaborative software development and maintaining project history.</p>
+    </section>
+  </main>
+</body>
+</html>
